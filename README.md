@@ -1,10 +1,8 @@
 # Learning Item and User Representations from Temporal Interaction Matrices and Tensors
 
-Командный проект по курсу «Рекомендательные системы». Текущий этап: proposal.
 
 **Команда:** Алиев Тимур, Уваров Лев, Молонов Борис
 
-## Задача
 
 По журналу событий `(user, item, timestamp)` и истории пользователя до момента `t` нужно ранжировать объекты для следующего взаимодействия.
 
@@ -12,7 +10,6 @@
 
 **Исследовательский вопрос:** содержат ли представления, выученные из матрицы «объект × время», информацию о следующем взаимодействии сверх популярности, и при каких свойствах данных эта информация проявляется.
 
-## Метод
 
 1. **Матрица активности.** Строится по событиям до границы `T0`. Используются бинарный и логарифмический (`log(1 + n)`) варианты.
 2. **Представления объектов `z_i`:**
@@ -112,5 +109,3 @@ reports/     proposal и отчёты
 - Park et al. Temporal Linear Item-Item Model for Sequential Recommendation. WSDM 2025.
 - Ji et al. A Critical Study on Data Leakage in Recommender System Offline Evaluation. TOIS 2023.
 - Krichene, Rendle. On Sampled Metrics for Item Recommendation. KDD 2020.
-
-Полный список — в proposal (`reports/proposal.pdf`).
